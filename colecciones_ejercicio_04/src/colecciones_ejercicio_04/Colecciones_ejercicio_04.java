@@ -13,6 +13,14 @@ public class Colecciones_ejercicio_04 {
         PeliculaService sv = new PeliculaService();
         ArrayList<Pelicula> lista = new ArrayList();
         sv.crearPelicula(lista);
+        System.out.println("Peliculas con duracion mayor a 1 hora");
+        for (Pelicula aux : lista) {
+            if (aux.getHoras()>1) {
+                System.out.println(aux); 
+            }
+           
+        }
+        
         for (Pelicula aux : lista) {
             System.out.println(aux);
         }

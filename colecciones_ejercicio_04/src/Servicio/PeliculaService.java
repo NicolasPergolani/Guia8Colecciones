@@ -26,9 +26,9 @@ public class PeliculaService {
             System.out.println("Ingrese la duracion de la película");
             p.setHoras(leer.nextDouble());
             lista.add(p);
-            System.out.println("Queres cargar otra peli?(S para salir)");
+            System.out.println("Queres cargar otra peli?(Si/No)");
             opc = leer.next();
-        } while (!opc.equalsIgnoreCase("S")); 
+        } while (!opc.equalsIgnoreCase("no")); 
     }
     
     
